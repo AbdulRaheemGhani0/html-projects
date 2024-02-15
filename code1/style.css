@@ -1,0 +1,543 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  }
+
+
+
+li a {
+
+
+  text-decoration: none;
+  color: #ffffff;
+}
+  
+
+li{
+  margin-top: 40px;
+margin-left: 20px;
+      font-size:1.3rem;
+  }
+
+  
+  header{display: flex;
+    flex-wrap: wrap;
+        
+      justify-content:space-between;
+      
+  }
+  ul{display: flex;
+    flex-wrap: wrap;
+    
+      list-style: none;
+  
+  }
+  img{display: flex;
+    
+      width: 20%;
+  }
+ 
+
+
+/* old */
+
+#button{display: flex;
+  flex-wrap: wrap;
+  border-color: #ffffff;
+  border-width: 2px;
+  border-radius: 50px 50px ;
+   background-color: #000000;
+  color: #000000;
+padding: 20px 30px;
+margin-bottom: 22px;
+}
+#order-button{display: flex;
+  flex-wrap: wrap;
+  border-color: #000000;
+    border-width: 2px;
+    border-radius: 50px 50px ;
+     background-color: #ed1c24;
+    color: white;
+    padding: 20px 30px;
+    margin-bottom: 22px;
+}
+
+
+.image01{display: flex;
+  flex-wrap: wrap;
+
+text-align: center;
+width: 100%;
+}
+#navtabs{
+display:inline-flex;
+justify-content: space-between;
+}
+body{
+  background-color: #000000;
+  color: #ffffff;
+
+}
+
+  
+
+.navbar{ 
+display: flex;
+justify-content:space-between;
+
+}
+
+  .main_custom_heading-second h2 {
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4rem;
+    line-height: 50px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+    align-content: center;
+align-items: center;
+}
+
+  
+
+span.logo-text-hold {
+  font-family: 'futurak';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 62px;
+  color: #FFFFFF;
+}
+h2 {
+  display: block;
+  font-size:50px;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.product_brand_main {display: flex;
+  flex-wrap: wrap;
+  
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  margin: 0px 0px;
+}
+#product-brand-main-ul{display: flex;
+  flex-wrap: wrap;
+  
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  list-style: none;
+ text-align: center;
+ background-color: #000000;
+
+
+
+
+}
+
+#main-brand{display: flex;
+  flex-wrap: wrap;
+ 
+  justify-content:space-around;
+background-color: #ffffff;
+width: 90%;
+padding: 10px 5px 5px 5px;
+border-radius: 3px;
+}
+#button-1{
+  border-color: #606060;
+  border-width: 1px 2px 2px 2px;
+  border-radius: 50px 50px ;
+   background-color: #000000;
+  color: #ffffff;
+padding: 20px 30px;
+margin-top: 40px;
+
+}
+h3{
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+  
+}
+p{
+  display: flex;
+  justify-content: center;
+  font-size: 1rem;
+  
+    line-height:0px;
+
+}
+h3, p {
+  margin: 0;
+}
+
+#branch-img{
+display:inline-flex;
+flex-wrap: wrap;
+  width: 30%;
+  margin-left:15px;
+flex-direction: row;
+
+
+}
+li{
+  list-style: none;
+display: flex;
+justify-content: center;
+
+
+}
+h4 p1{
+  margin: 0;
+}
+.branches{display: flex;
+  flex-wrap: wrap;
+
+justify-content: center;
+}
+h5{
+  display: flex;
+justify-content: center;
+font-size: 3rem;
+
+}
+#button-2{display: flex;
+  flex-wrap: wrap;
+  background-color: #428242;
+  border-color: #606060;
+  border-width: 1px 2px 2px 2px;
+  border-radius: 50px 50px ;
+  
+  color: #ffffff;
+padding: 20px 30px;
+margin-top: 40px;
+
+}
+#location{display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  color: black;
+display: flex;
+justify-content: space-between;
+
+}
+.next-branches{display: flex;
+  flex-wrap: wrap;
+
+justify-content: space-between;
+
+
+
+}
+.franchise{display: flex;
+  flex-wrap: wrap;
+
+justify-content: space-between;
+
+
+
+}
+#fra-img{display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+background-color: #FFFFFF;
+
+
+}
+
+#three{display: flex;
+  flex-wrap: wrap;
+ 
+justify-content: space-between;
+/* background-color: #FFFFFF;
+color: #000000; */
+margin :0px 65px;
+padding: 0px 65px;
+}
+
+
+
+#ft-img{
+ 
+  width: 120%;
+ padding: 0px 65px;
+
+}
+#openimage{display: flex;
+  flex-wrap: wrap;
+  padding:70px 65px;
+  background-color:#ffffff ;
+}
+
+
+#footerlogo{
+width: 100%;
+
+
+}
+/* .footerimage{
+
+} */
+.applelogo{
+width: 100%;
+
+
+}
+footer{
+  
+  margin: 0px;
+  padding: 0px;
+}
+ i{
+color:red;
+background-color: #ffffff;
+background: #000000;
+ }
+#fticon{display: flex;
+  
+  justify-content: center;
+
+}
+h6{
+font-size: large;
+
+}
+/* footer{display: flex;
+  flex-wrap: wrap;
+ 
+} */
+i{
+color: #ed1c24;
+
+
+
+}
+#branch1-img{
+width: 70%;
+
+
+}
+
+
+.franchisese{
+display: flex;
+flex-direction: column;
+
+
+}
+#branches-2{
+display: flex;
+flex-direction: row;
+
+
+}
+
+#branch-img{
+width: 50%;
+
+
+
+
+}
+
+
+
+
+
+
+
+
+#bars{
+display: none;
+
+
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  #bars{
+display:flex ;
+justify-content: space-between;
+align-items: center;
+
+
+margin-top: 3%;
+font-size: 2rem;
+}
+#container{
+  display: none;
+}
+#main-brand{display: flex;
+ flex-direction: column;
+ flex-wrap: wrap;
+align-items: center;
+
+  justify-content:center;
+background-color: #ffffff;
+width: 90%;
+padding: 10px 5px 5px 5px;
+border-radius: 3px;
+}
+#product-brand-main-ul{display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  list-style-type: disc;
+  margin-block-start: 20px;
+  margin-block-end: 20px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 20px;
+  list-style: none;
+ text-align: center;
+ background-color: #000000;
+align-items: center;
+
+
+
+}
+#main-brand{display: flex;
+  flex-wrap: wrap;
+ flex-direction: column;
+  justify-content:space-around;
+background-color: #ffffff;
+width: 90%;
+padding: 10px 5px 5px 5px;
+border-radius: 3px;
+margin-bottom: 1rem;
+align-items: center;
+}
+#branches-2{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex-shrink: initial;
+width: 50%;
+align-items:center ;
+
+  }
+#branch-img{
+width: 50%;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+align-items: center;
+
+
+
+
+}
+#branches{
+display: flex;
+justify-content: center;
+flex-direction: column;
+flex-wrap: wrap;
+align-items: center;
+
+
+
+
+}
+h4  {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+
+
+
+}
+p4{
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+
+
+}
+h3{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+
+
+}
+
+h5{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+
+
+}
+#heading{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#headings{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+
+
+}
+#images{
+  
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+
+
+
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
